@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Yamaha MT-03",
+        "imageNames": ["mt03-1", "mt03-2"],
+        "bikeDescription": "Engine: 321cc Inline-Twin"
+    },
+    {
+        "name": "Yamaha MT-07",
+        "imageNames": ["mt07-1", "mt07-2"],
+        "bikeDescription": "Engine: 689cc Parallel-Twin"
+    },
+    {
+        "name": "Yamaha MT-09",
+        "imageNames": ["mt09-1", "mt09-2"],
+        "bikeDescription": "Engine: 890cc Inline-Three"
+    },
+    {
+        "name": "Yamaha R3",
+        "imageNames": ["r3-1", "r3-2"],
+        "bikeDescription": "Engine: 321cc Parallel-Twin"
+    },
+    {
+        "name": "Yamaha R6",
+        "imageNames": ["r6-1", "r6-2"],
+        "bikeDescription": "Engine: 599cc Parallel-Four"
+    },
+    {
+        "name": "Yamaha R7",
+        "imageNames": ["r7-1", "r7-2"],
+        "bikeDescription": "Engine: 689cc Inline-Twin"
+    },
+    {
+        "name": "Yamaha R9",
+        "imageNames": ["r9-1", "r9-2"],
+        "bikeDescription": "Engine: 890cc Inline-Three"
+    },
+    {
+        "name": "Kawasaki Ninja 400",
+        "imageNames": ["ninja400-1", "ninja400-2"],
+        "bikeDescription": "Engine: 399cc Parallel-Twin"
+    },
+    {
+        "name": "Kawasaki Ninja 500",
+        "imageNames": ["ninja500-1", "ninja500-2"],
+        "bikeDescription": "Engine: 451cc Parallel-Twin"
+    },
+    {
+        "name": "Kawasaki Ninja ZX-4R",
+        "imageNames": ["zx4r-1", "zx4r-2"],
+        "bikeDescription": "Engine: 399cc Inline-Four"
+    },
+    {
+        "name": "Kawasaki Ninja ZX-6R",
+        "imageNames": ["zx6r-1", "zx6r-2"],
+        "bikeDescription": "Engine: 599cc Inline-Four"
+    },
+    {
+        "name": "Kawasaki Ninja ZX-10R",
+        "imageNames": ["zx10r-1", "zx10r-2"],
+        "bikeDescription": "Engine: 998cc Inline-Four"
+    }
+]
