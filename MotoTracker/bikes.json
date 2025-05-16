@@ -2,61 +2,229 @@
     {
         "name": "Yamaha MT-03",
         "imageNames": ["mt03-1", "mt03-2"],
-        "bikeDescription": "Engine: 321cc Inline-Twin"
+        "bikeDescription": "321cc Inline-Twin\n78 000kr",
+        "seen": false
     },
     {
         "name": "Yamaha MT-07",
         "imageNames": ["mt07-1", "mt07-2"],
-        "bikeDescription": "Engine: 689cc Parallel-Twin"
+        "bikeDescription": "689cc Parallel-Twin\n98 000kr",
+        "seen": true
     },
     {
         "name": "Yamaha MT-09",
         "imageNames": ["mt09-1", "mt09-2"],
-        "bikeDescription": "Engine: 890cc Inline-Three"
+        "bikeDescription": "890cc Inline-Three\n125 000kr",
+        "seen": false
+    },
+    {
+        "name": "Yamaha MT-10",
+        "imageNames": ["mt10-1", "mt10-2"],
+        "bikeDescription": "998cc Inline-Four\n185 000kr",
+        "seen": false
     },
     {
         "name": "Yamaha R3",
         "imageNames": ["r3-1", "r3-2"],
-        "bikeDescription": "Engine: 321cc Parallel-Twin"
+        "bikeDescription": "321cc Parallel-Twin\n85 000kr",
+        "seen": false
     },
     {
         "name": "Yamaha R6",
         "imageNames": ["r6-1", "r6-2"],
-        "bikeDescription": "Engine: 599cc Parallel-Four"
+        "bikeDescription": "599cc Parallel-Four\n170 000kr",
+        "seen": false
     },
     {
         "name": "Yamaha R7",
         "imageNames": ["r7-1", "r7-2"],
-        "bikeDescription": "Engine: 689cc Inline-Twin"
+        "bikeDescription": "689cc Inline-Twin\n115 000kr",
+        "seen": false
     },
     {
         "name": "Yamaha R9",
         "imageNames": ["r9-1", "r9-2"],
-        "bikeDescription": "Engine: 890cc Inline-Three"
+        "bikeDescription": "890cc Inline-Three\n165 000kr",
+        "seen": false
+    },
+    {
+        "name": "Yamaha R1",
+        "imageNames": ["r1-1", "r1-2"],
+        "bikeDescription": "998cc Inline-Four\n250 000kr",
+        "seen": false
     },
     {
         "name": "Kawasaki Ninja 400",
         "imageNames": ["ninja400-1", "ninja400-2"],
-        "bikeDescription": "Engine: 399cc Parallel-Twin"
+        "bikeDescription": "399cc Parallel-Twin\n73 000kr",
+        "seen": false
     },
     {
         "name": "Kawasaki Ninja 500",
         "imageNames": ["ninja500-1", "ninja500-2"],
-        "bikeDescription": "Engine: 451cc Parallel-Twin"
+        "bikeDescription": "451cc Parallel-Twin\n74 000kr",
+        "seen": false
+    },
+    {
+        "name": "Kawasaki Ninja 650",
+        "imageNames": ["ninja650-1", "ninja650-2"],
+        "bikeDescription": "649cc Parallel-Twin\n96 000kr",
+        "seen": false
+    },
+    {
+        "name": "Kawasaki Ninja 1100",
+        "imageNames": ["ninja1100-1", "ninja1100-2"],
+        "bikeDescription": "1099cc Inline-Four\n163 000kr",
+        "seen": false
     },
     {
         "name": "Kawasaki Ninja ZX-4R",
         "imageNames": ["zx4r-1", "zx4r-2"],
-        "bikeDescription": "Engine: 399cc Inline-Four"
+        "bikeDescription": "399cc Inline-Four\n92 000kr",
+        "seen": false
     },
     {
         "name": "Kawasaki Ninja ZX-6R",
         "imageNames": ["zx6r-1", "zx6r-2"],
-        "bikeDescription": "Engine: 599cc Inline-Four"
+        "bikeDescription": "599cc Inline-Four\n136 000kr",
+        "seen": false
     },
     {
         "name": "Kawasaki Ninja ZX-10R",
         "imageNames": ["zx10r-1", "zx10r-2"],
-        "bikeDescription": "Engine: 998cc Inline-Four"
+        "bikeDescription": "998cc Inline-Four\n227 000kr",
+        "seen": false
+    },
+    {
+        "name": "Kawasaki Z500",
+        "imageNames": ["z500-1", "z500-2"],
+        "bikeDescription": "451cc Parallel-Twin\n67 000kr",
+        "seen": false
+    },
+    {
+        "name": "Kawasaki Z650",
+        "imageNames": ["z650-1", "z650-2"],
+        "bikeDescription": "649cc Parallel-Twin\n83 000kr",
+        "seen": false
+    },
+    {
+        "name": "Kawasaki Z900",
+        "imageNames": ["z900-1", "z900-2"],
+        "bikeDescription": "948cc Inline-Four\n111 000kr",
+        "seen": false
+    },
+    {
+        "name": "Kawasaki H2 SX",
+        "imageNames": ["h2-1", "h2-2"],
+        "bikeDescription": "998cc Inline-Four\n276 000kr",
+        "seen": false
+    },
+    {
+        "name": "Kawasaki Z-H2",
+        "imageNames": ["zh2-1", "zh2-2"],
+        "bikeDescription": "998cc Inline-Four\n209 000kr",
+        "seen": false
+    },
+    {
+        "name": "Kawasaki H2R",
+        "imageNames": ["h2r-1", "h2r-2"],
+        "bikeDescription": "998cc Inline-Four\n575 000kr",
+        "seen": false
+    },
+    {
+        "name": "Ducati Panigale V2/V2 S",
+        "imageNames": ["v2-1", "v2-2"],
+        "bikeDescription": "890cc V2\n172 000kr / 190 000kr",
+        "seen": false
+    },
+    {
+        "name": "Ducati Streetfighter V2/V2 S",
+        "imageNames": ["sv2-1", "sv2-2"],
+        "bikeDescription": "890cc V2\n157 000kr / 175 000kr",
+        "seen": false
+    },
+    {
+        "name": "Ducati Panigale V4/V4 S",
+        "imageNames": ["v4-2", "v4-1"],
+        "bikeDescription": "1103cc V4\n292 000kr / 371 000kr",
+        "seen": false
+    },
+    {
+        "name": "Ducati Streetfighter V4/V4 S",
+        "imageNames": ["sv4-1", "sv4-2"],
+        "bikeDescription": "890cc V4\n270 000kr / 302 000kr",
+        "seen": false
+    },
+    {
+        "name": "Honda CBR300R",
+        "imageNames": ["cbr300r-1", "cbr300r-2"],
+        "bikeDescription": "286cc Single\n48 000kr",
+        "seen": false
+    },
+    {
+        "name": "Honda CBR500R",
+        "imageNames": ["cbr500r-1", "cbr500r-2"],
+        "bikeDescription": "471cc Parallel-Twin\n72 000kr",
+        "seen": false
+    },
+    {
+        "name": "Honda CBR650R",
+        "imageNames": ["cbr650r-1", "cbr650r-2"],
+        "bikeDescription": "649cc Inline-Four\n96 000kr",
+        "seen": false
+    },
+    {
+        "name": "Honda CBR1000RR-R Fireblade",
+        "imageNames": ["fireblade-1", "fireblade-2"],
+        "bikeDescription": "1000cc Inline-Four\n282 000kr",
+        "seen": false
+    },
+    {
+        "name": "Suzuki Hayabusa",
+        "imageNames": ["hb-1", "hb-2"],
+        "bikeDescription": "1340cc Inline-Four\n205 000kr",
+        "seen": false
+    },
+    {
+        "name": "Suzuki GSX-R600",
+        "imageNames": ["gsxr600-1", "gsxr600-2"],
+        "bikeDescription": "599cc Inline-Four\n117 000kr",
+        "seen": false
+    },
+    {
+        "name": "Suzuki GSX-R750",
+        "imageNames": ["gsxr750-1", "gsxr750-2"],
+        "bikeDescription": "750cc Inline-Four\n128 000kr",
+        "seen": false
+    },
+    {
+        "name": "Suzuki GSX-8R",
+        "imageNames": ["gsx8r-1", "gsx8r-2"],
+        "bikeDescription": "776cc Parallel-Twin\n94 000kr",
+        "seen": false
+    },
+    {
+        "name": "Suzuki GSX-R1000/R1000R",
+        "imageNames": ["gsxr1000-1", "gsxr1000-2"],
+        "bikeDescription": "1000cc Inline-Four\n161 000kr / 182 000kr",
+        "seen": false
+    },
+    {
+        "name": "BMW S 1000 RR",
+        "imageNames": ["s1000rr-1", "s1000rr-2"],
+        "bikeDescription": "999cc Inline-Four\n241 000kr",
+        "seen": false
+    },
+    {
+        "name": "BMW M 1000 RR",
+        "imageNames": ["m1000rr-1", "m1000rr-2"],
+        "bikeDescription": "999cc Inline-Four\n412 000kr",
+        "seen": false
+    },
+    {
+        "name": "BMW R 1300 GS",
+        "imageNames": ["r1300gs-1", "r1300gs-2"],
+        "bikeDescription": "1300cc Inline-Twin\n208 000kr",
+        "seen": false
     }
 ]

@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    let bikes: [Bike] = loadBikeData()
-
+    @EnvironmentObject var bikeData: BikeDataManager
+    
     var body: some View {
         NavigationView {
-            List(bikes, id: \.name) { bike in
-                BikeRow(bike: bike)
+            List {
+                ForEach($bikeData.bikes) { $bike in
+                    BikeRow(bike: bike, isSeen: $bike.seen)
+                        .environmentObject(bikeData)
+                }
             }
-
             .navigationTitle("Bikes")
         }
     }
@@ -37,6 +39,45 @@ func loadBikeData() -> [Bike] {
     }
 }
 
+class BikeDataManager: ObservableObject {
+    @Published var bikes: [Bike] = []
+    private let saveKey = "savedBikes"
+    
+    init() {
+        load()
+    }
+    
+    func load() {
+        // First try loading user's saved data
+        if let data = UserDefaults.standard.data(forKey: saveKey),
+           let decoded = try? JSONDecoder().decode([Bike].self, from: data) {
+            bikes = decoded
+            return
+        }
+        
+        // Fallback to initial JSON if no saved data
+        bikes = loadInitialBikeData()
+    }
+    
+    func save() {
+        if let encoded = try? JSONEncoder().encode(bikes) {
+            UserDefaults.standard.set(encoded, forKey: saveKey)
+        }
+    }
+    
+    private func loadInitialBikeData() -> [Bike] {
+        guard let url = Bundle.main.url(forResource: "bikes", withExtension: "json") else {
+            return []
+        }
+        
+        do {
+            let data = try Data(contentsOf: url)
+            return try JSONDecoder().decode([Bike].self, from: data)
+        } catch {
+            return []
+        }
+    }
+}
 
 #Preview {
     ContentView()
